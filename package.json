@@ -1,0 +1,24 @@
+{
+  "name": "needs-crash-report-action",
+  "version": "1.0.0",
+  "description": "Needs Crash Report Action",
+  "main": "needs-crash-report.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/st3fan/needs-crash-report-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/st3fan/needs-crash-report-action/issues"
+  },
+  "homepage": "https://github.com/st3fan/needs-crash-report-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.1",
+    "@actions/github": "^2.0.1"
+  }
+}

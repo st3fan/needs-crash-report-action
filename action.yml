@@ -1,0 +1,21 @@
+name: "Needs Crash Report"
+description: "Add a label when a crash report does not link to Sentry"
+inputs:
+  crash-label:
+    description: "Label to watch for"
+    required: true
+    default: "crash"
+  needs-crash-report-label:
+    description: "Label to add"
+    required: true
+    default: "needs-crash-report"
+  crash-reporter:
+    description: "Hostname of the crash reporter"
+    required: true
+    default: "sentry.io"
+outputs:
+  time: # id of output
+    description: "The time we greeted you"
+runs:
+  using: "node12"
+  main: "index.js"
